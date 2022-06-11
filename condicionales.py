@@ -4,6 +4,8 @@ calificacion = int(input("¿Introduce tu calificacion de la AZ-900? "))
 # Preguntamos si la califación es menor a 700
 if calificacion < 700:
     print("Reprobaste") # Si es menor a 700, muestra esto
+elif calificacion == 700:
+    print("Panzaso")
 elif calificacion > 1000:
     print("Mientes!!! No puedes sacar mas de mil")
 else: # Si no se cumple el if anterior, pasa por esta linea
